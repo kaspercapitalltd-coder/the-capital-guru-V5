@@ -4,7 +4,7 @@ import { useState, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { Mail, ArrowLeft, RefreshCcw } from 'lucide-react';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 import { toast } from 'sonner';
 import { createClient } from '@/lib/supabase/client';
 import { Logo } from '@/components/logo';

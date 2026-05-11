@@ -1,5 +1,7 @@
+'use client';
+
 import { AlertTriangle, ShieldCheck, Scale, MousePointer2 } from 'lucide-react';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 
 export default function DisclaimerPage() {
   const sections = [

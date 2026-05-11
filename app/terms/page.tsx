@@ -1,5 +1,7 @@
+'use client';
+
 import { Gavel, History, AlertCircle, Book, Layout, Ban } from 'lucide-react';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 
 export default function TermsPage() {
   const sections = [

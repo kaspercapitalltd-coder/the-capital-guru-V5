@@ -7,7 +7,7 @@ import { z } from 'zod';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Mail, Lock, ArrowRight, ShieldCheck } from 'lucide-react';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 import { toast } from 'sonner';
 import { Logo } from '@/components/logo';
 

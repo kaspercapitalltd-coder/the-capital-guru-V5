@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Mail, ArrowLeft, ArrowRight, ShieldCheck } from 'lucide-react';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 import { z } from 'zod';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';

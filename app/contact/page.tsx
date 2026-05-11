@@ -7,7 +7,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { createClient } from '@/lib/supabase/client';
 import { toast } from 'sonner';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Name is required'),

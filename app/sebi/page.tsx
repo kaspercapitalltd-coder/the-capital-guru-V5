@@ -1,5 +1,7 @@
+'use client';
+
 import { ShieldAlert, Info, Scale, AlertTriangle, FileCheck } from 'lucide-react';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 
 export default function SebiGuidelinesPage() {
   const sections = [

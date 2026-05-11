@@ -6,7 +6,7 @@ import { Check, X, ExternalLink, Clock, User, Hash, IndianRupee, Loader2, Search
 import { createClient } from '@/lib/supabase/client';
 import { approvePaymentRequest, rejectPaymentRequest } from '@/app/actions/admin';
 import { toast } from 'sonner';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 
 export default function AdminPaymentsPage() {
   const supabase = createClient();
